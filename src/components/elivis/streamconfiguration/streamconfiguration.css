@@ -1,0 +1,24 @@
+.black-theme {
+  background-color: #000 !important;
+  color: #fff !important;
+  font-size: 12px !important;
+  border: 1px solid lightgrey !important;
+}
+
+.black-theme .tippy-box[data-placement^="top"] > .tippy-arrow:before {
+  border-top-color: #000 !important; /* set your color here and use the !important property */
+}
+.form-boxtopline7{
+  color: #000;
+  font-weight: 500;
+  background: #f6f6f6;
+  font-size: 15px;
+  border-radius: 0;
+  padding: 8px 10px;
+  text-align: left;
+}
+.form-boxdiv-gray{
+  border-radius: 0;
+  border: 0;
+  box-shadow: none;
+}

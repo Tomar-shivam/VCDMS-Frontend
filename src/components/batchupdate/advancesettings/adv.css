@@ -1,0 +1,155 @@
+.change-plus {
+  top: 50%;
+  position: absolute;
+  transform: translateY(-50%);
+  cursor: pointer;
+  border: solid 1px;
+  padding: 4px;
+  border-radius: 34%;
+}
+
+.filter-box {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.filter-label {
+  margin-right: 10px;
+  width: 100px;
+}
+
+.filter-select {
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+  padding-left: 5px;
+}
+
+.minus-png:hover {
+  cursor: pointer;
+}
+
+.form-label-custom {
+  display: block;
+}
+.plus-box {
+  height: 30px !important;
+  width: 30px;
+  text-align: center;
+  margin-left: 10px;
+  background-color: #006699;
+  display: inline-block;
+  line-height: 31.5px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.plus-box:hover {
+  background-color: #000;
+  cursor: pointer;
+}
+.plus-box i {
+  color: #ffffff;
+}
+.minus-box {
+  height: 30px !important;
+  width: 30px;
+  text-align: center;
+  margin-left: 14px;
+  background-color: #006699;
+  display: inline-block;
+  line-height: 31.5px;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  border: 1px solid #ced4da;
+}
+.minus-box:hover {
+  background-color: #000;
+  cursor: pointer;
+}
+.sel-all-btnbox {
+  float: left;
+  line-height: 33px;
+  height: 13px;
+}
+.minus-box i {
+  color: #000;
+}
+.form-select {
+  width: 89%;
+  display: inline-block;
+  margin-right: 7px;
+}
+.form-select2 {
+  width: 90%;
+  display: inline-block;
+  margin-right: 0px;
+}
+.lineh30 {
+  line-height: 30px;
+}
+.stream-selectall {
+  margin-top: 10px;
+  margin-left: 1.5%;
+  height: auto;
+}
+
+.top-filter-box {
+  border-radius: 5px;
+  margin: 20px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f4f4f4;
+  padding: 20px 10px;
+}
+.top-filter-box-uploadPreset {
+  margin: 0;
+}
+
+.middle-filter-box {
+  margin-left: 1.5%;
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 4px;
+  border: 1px solid lightgrey;
+  margin-bottom: 15px;
+}
+
+.width {
+  width: 90%;
+}
+
+.label-streams {
+  margin-right: 10px;
+}
+
+.checkbox-stream {
+  position: inherit;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.form-input-custom {
+  width: 45%;
+  display: inline-block;
+}
+
+.form-select-custom {
+  width: 42%;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.search-pos {
+  margin: 15px;
+  width: 100%;
+  justify-content: center;
+}
+
+.hidden {
+  visibility: hidden;
+}
+.form-label-bold {
+  font-size: 14px;
+  font-weight: 700;
+}

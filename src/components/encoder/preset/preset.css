@@ -1,0 +1,14 @@
+.spacing{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.not-visible{
+    display: none;
+}
+
+.spacing button+button{
+    margin-left: 15px;
+}

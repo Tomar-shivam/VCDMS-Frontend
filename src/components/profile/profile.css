@@ -1,0 +1,128 @@
+.profile-img{
+    background-image: url('../../images/profile-bg-shape.png');
+    margin: 0 15%;
+    padding: 50px 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.profile-img-update{
+    position: absolute;
+    bottom: 45px;
+    left: calc(35% + 210px);
+}
+.profile-img-update-button{
+    outline: 0;
+    border: 0;
+    padding: 8px;
+    background: #ffffff;
+    border-radius: 5px;
+    line-height: 1;
+    color: #006699;
+    box-shadow: 0 2px 4px #d7d7d7;
+    -webkit-box-shadow: 0 2px 4px #d7d7d7;
+    transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+.profile-img-update-button:hover{
+    transform: translateY(-3px);
+}
+.profile-img-update button i{
+    vertical-align: sub;
+    font-size: 16px;
+}
+.profile-img figure{
+    margin: 0;
+    width: 280px;
+    height: 236px;
+    background: #f1f1f1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-left: 35%;
+}
+.profile-img figure img {
+    width: 100%;
+    padding: 0;
+    min-height: 100%;
+    border-radius: 15px;
+}
+
+.profile-details ul{
+    padding: 0;
+    width: 100%;
+    /* margin: 20px 0 25px; */
+}
+.edit-name-label{
+    margin: 0;
+    font-size: 16px !important;
+}
+.input-class{
+    min-width: 220px;
+    font-size: 15px;
+    height: 32px;
+    margin-left: 5px;
+    width: 100%;
+    outline: 0;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    padding-left: 6px;
+}
+.profile-details ul li{
+    display: flex;
+    width: 100% ;
+    align-items: center;
+    padding: 16px 18px 18px 0;
+    height: 67px;
+}
+.profile-details ul li+li{
+    border-top: 1px dashed #bcbcbc;
+}
+.profile-details ul li img{
+    width: 18px;
+    height: 18px;
+    padding: 0;
+}
+.profile-details ul li p{
+    color: black;
+    margin: 0 0 0 8px;
+    font-size: 16px;
+}
+.profile-details ul li p span{
+    color: #6f6f6f;
+    display: inline-block;
+}
+.change-pwd-btn{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    background: #006699;
+    border: 1px solid #006699;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+}
+.change-pwd-btn:hover,
+.change-pwd-btn:focus{
+    background: white;
+    color: #006699;
+    text-decoration: none;
+}
+.first-last .input-class{
+    margin-left: 0;
+    min-width: 100%;
+    height: 33.6px;
+    margin-bottom: .5rem;
+}
+@media (min-width: 2500px){
+    .profile-img figure{
+        margin-left: 15%;
+    }
+    .profile-img-update{
+        left: calc(15% + 210px);
+    }
+}
+
+

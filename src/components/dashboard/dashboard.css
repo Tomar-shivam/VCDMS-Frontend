@@ -1,0 +1,471 @@
+.block-021 {
+  width: 100%;
+  height: auto;
+  margin: 0 auto 0;
+  color: #000;
+}
+
+.block-01 {
+  width: 100%;
+  height: auto;
+  margin: 16px auto 0;
+  color: #000;
+}
+
+.disk-plats {
+  width: calc(25% - 15px);
+  height: 105px;
+  float: left;
+  padding: 14px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  box-shadow: 0 12px 24px 0 rgba(0, 0, 0, 0.04);
+  margin: 0 15px 15px 0;
+}
+
+.disk-plats2 {
+  width: calc(25% - 15px);
+  height: 85px;
+  float: left;
+  padding: 14px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  box-shadow: 0 12px 24px 0 rgb(0 0 0 / 4%);
+  margin: 0 15px 15px 0;
+}
+
+.disk-plat-heading {
+  width: 100%;
+  min-height: 40px;
+  height: auto;
+  font-size: 12px;
+  line-height: 1.25;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  font-family: Verdana, Arial, Helvetica, sans-serif !important;
+}
+
+.disk-plat-heading2 {
+  width: 135px;
+  height: 36px;
+  float: left;
+  font-size: 14px;
+  line-height: 1.13;
+  letter-spacing: 0.2px;
+  padding-top: 15px;
+}
+
+.disk-plat-heading5 {
+  color: #636161;
+  font-weight: bold;
+  width: 100%;
+  min-height: 18px;
+  height: auto;
+  font-size: 12px;
+  line-height: 1.25;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.icon-punctuality {
+  width: 32px;
+  float: right;
+  padding: 15px 0 0 0;
+}
+
+.icon-punctuality img {
+  width: 100%;
+  padding-right: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.marb-15 {
+  margin-bottom: 15px;
+}
+
+.marl-15 {
+  margin-left: 15px;
+}
+
+.btn-recive {
+  float: left;
+  width: 47.5%;
+  margin-right: 5%;
+}
+
+.btn-send {
+  float: left;
+}
+
+.btn-links {
+  background-color: #337ab7 !important;
+  border-color: #337ab7 !important;
+  color: #ffffff !important;
+  padding: 0.4em 1.8em;
+  border-radius: 4px;
+  font-size: 75%;
+  font-weight: 700;
+}
+
+.not-visible {
+  display: none;
+}
+
+.icons:hover {
+  cursor: pointer;
+}
+
+.one {
+  background-color: #d5efae;
+}
+
+.two {
+  background-color: #efaeae;
+}
+
+.three {
+  background-color: #ffc106;
+}
+
+.pointer {
+  cursor: pointer;
+}
+.nested-table-box {
+  margin-bottom: 0 !important;
+}
+
+.form-boxtable-pad-15 {
+  padding: 15px !important;
+}
+.nested-table-box thead tr,
+.nested-table-box thead tr th {
+  background-color: darkseagreen;
+  border: 1px solid #70ad47 !important;
+  color: #385723;
+}
+.nested-table-box tbody tr {
+  border-top: 1px solid #70ad47;
+}
+.nested-table-box tbody tr td {
+  border: 1px solid #70ad47 !important;
+}
+.nested-bgactive {
+  background-color: #70ad47;
+}
+.inner-table {
+  margin-bottom: 0 !important;
+}
+.inner-table tbody tr {
+  border-top: 1px solid #ccc;
+  cursor: pointer;
+}
+.inner-table thead tr th {
+  background-color: lightblue !important;
+  border: 1px solid #ccc !important;
+}
+.inner-table tbody tr td {
+  border: 1px solid #ccc !important;
+}
+.main-tr-back:hover {
+  background-color: #c5e0b4 !important;
+}
+
+.boxplate {
+  border: 1px solid #70ad47;
+  border-radius: 6px;
+}
+.boxplate-heading {
+  padding: 8px 15px;
+  background-color: #c5e0b4;
+  color: #385723;
+  border-radius: 6px 6px 0 0;
+  border-bottom: 1px solid #70ad47;
+  font-size: 18px;
+  font-weight: 600;
+}
+.pad-new {
+  padding: 7px 0 15px 0;
+}
+.font-weight-600 {
+  font-weight: 600;
+}
+
+.bg-header {
+  /* border-bottom: 1px solid #ccc; */
+  color: #fff;
+  font-size: 12px;
+}
+.bg-header > tr > th {
+  padding: 0.3rem 0.5rem;
+  border-bottom: 1px solid darkgray;
+}
+.font12 {
+  font-size: 11px;
+}
+.font12 tr td {
+  padding: 0.3rem 0.5rem;
+  border-bottom: 1px solid darkgray;
+}
+
+.table-inner {
+  width: 100%;
+  font-size: 12px;
+  margin-bottom: 0;
+}
+
+.table-inner tbody tr:hover {
+  background-color: #f6f9fd;
+}
+
+.btn-view-region {
+  font-size: 13px !important;
+  background-color: #006699;
+  color: #fff;
+  border-color: #006699;
+}
+
+.btn-view-region:hover {
+  background-color: white;
+  color: #006699;
+}
+
+.faviconright {
+  color: #fff !important;
+}
+
+.faviconright-active {
+  background-color: #fff;
+}
+
+.color-dark-green {
+  color: #3fb65f !important;
+}
+
+.color-red {
+  color: red !important;
+}
+
+.color-yellow {
+  color: #ffc106 !important;
+}
+
+.marb-20 {
+  margin-bottom: 20px;
+}
+
+.marl-15 {
+  margin-left: 15px;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.card-this {
+  border: 1px solid darkseagreen;
+  position: relative;
+  border-radius: 0px 0px 6px 6px !important;
+  box-shadow: none;
+}
+
+.link {
+  color: blue;
+  margin-left: 5px;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+.posrel {
+  position: relative;
+}
+.row-div {
+  width: 100%;
+}
+
+.cluster-table {
+  width: 100%;
+  font-size: 12px;
+  margin-bottom: 0;
+}
+
+.cluster-view:hover {
+  background-color: unset !important;
+}
+
+.cluster-table thead tr {
+  background-color: darkgrey !important;
+}
+
+.cluster-table thead tr:hover {
+  background-color: darkgrey !important;
+}
+
+.cluster-table tbody tr:hover {
+  background-color: #f6f9fd !important;
+  cursor: pointer;
+}
+
+.colorback-darkgrey {
+  background-color: darkgrey !important;
+}
+/*NEW CSS*/
+.boxplate {
+  border: 1px solid #e2e2e2;
+  border-radius: 10px;
+}
+.boxplate-heading {
+  padding: 6px 15px;
+  background-color: #f6f9fd;
+  color: #000000;
+  border-radius: 10px 10px 0 0;
+  border-bottom: 1px solid #e2e2e2;
+  font-size: 16px;
+  font-weight: 600;
+}
+.btn-100,
+.btn-100:hover,
+.btn-100-active {
+  background-color: #ffffff;
+  color: #000;
+  border-radius: 5px;
+  padding: 8px 10px !important;
+  font-size: 15px !important;
+  font-weight: 500;
+  margin-top: 0.5rem;
+  width: 100%;
+  display: flex;
+  border: 1px solid #e2e2e2;
+  align-items: center;
+  justify-content: space-between;
+}
+.btn-100:hover {
+  border-color: #006699;
+}
+.btn-secondary:focus,
+.btn-100:not(:disabled):not(.disabled).active,
+.btn-100:not(:disabled):not(.disabled):active,
+.show > .btn-100.dropdown-toggle {
+  background-color: white;
+  color: #000;
+  box-shadow: none;
+  border-color: #006699;
+}
+
+.btn-100-active:not(:disabled):not(.disabled).active,
+.btn-100-active:not(:disabled):not(.disabled):active,
+.show > .btn-100.dropdown-toggle,
+.btn-100-active,
+.btn-100-active:hover,
+.btn-100-active:focus {
+  background-color: #006699;
+  color: #fff;
+  border: 1px solid #006699;
+}
+
+.btn-100 .faviconright,
+.btn-100:hover .faviconright {
+  color: #006699 !important;
+}
+.btn-100-active .faviconright {
+  color: #ffffff !important;
+}
+.card-this {
+  border: 0;
+  position: relative;
+  border-radius: 0;
+}
+.card-this .card-body {
+  padding: 1.25rem 0;
+}
+.btn-100-active:hover {
+  background-color: #006699;
+  border-color: #006699;
+}
+.alarmdiv {
+  display: inline-block;
+  font-size: 15px;
+}
+.alarmdiv + svg {
+  margin-left: 20px;
+}
+.btn-100-active .alarmdiv {
+  display: none;
+}
+.table-responsive.border {
+  border-radius: 5px;
+  border-color: #ccc !important;
+}
+.table thead th {
+  background-color: #eeeeee;
+}
+.table-responsive tbody > tr:first-child {
+  border-top: 1px solid #ccc;
+}
+
+.regions-scroll {
+  max-height: calc(100vh - 180px);
+  overflow-y: auto;
+}
+
+.systemList-scroll {
+  max-height: 306px;
+  overflow-y: auto;
+}
+.systemList-scroll .bg-header {
+  position: sticky;
+  top: 0;
+}
+.deviceList-scroll {
+  max-height: 205px;
+  overflow-y: auto;
+}
+.deviceList-scroll .bg-header {
+  position: sticky;
+  top: 0;
+}
+
+/* / REGIONS ACCORDION / */
+
+.region-accordion .accordion-header{
+  background-color: #f6f9fd;
+    color: #000000;
+    border-radius: 0;
+    padding: 5px 10px;
+    font-size: 15px;
+    font-weight: 500;
+    width: 100%;
+    display: flex;
+    border: 0;
+    align-items: center;
+    justify-content: space-between;
+    outline: 0;
+    text-transform: capitalize;
+}
+.region-accordion .accordion-header.active{
+  background-color: #006699;
+  color: white;
+}
+.region-accordion .card{
+  border: 1px solid #e5e5e5 !important;
+    border-radius: 5px !important;
+}
+.region-accordion .card .collapse.show{
+  border-top: 1px solid #e5e5e5 !important;
+}
+.region-accordion .card .card-body{
+  padding: 10px;
+}
+.region-accordion .accordion-toggle i{
+  color: #006699;
+  font-size: 16px;
+    line-height: 1;
+    cursor: pointer;
+}
+.region-accordion .accordion-header.active .accordion-toggle i{
+  color: white;
+}

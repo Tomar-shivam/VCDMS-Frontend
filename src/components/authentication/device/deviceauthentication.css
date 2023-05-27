@@ -1,0 +1,33 @@
+.passworddiv {
+  margin-top: 50px;
+  border-radius: 10px;
+  width: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+  border: 1px solid lightgray;
+  box-shadow: 0 12px 24px 0 rgb(0 0 0 / 4%);
+}
+
+.passworddivheading {
+  border-bottom: 1px solid #d3d3d3;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 10px;
+  color: black;
+  background-color: #f6f9fd;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.formdiv-setpassword {
+  margin: 20px;
+}
+
+.passworddivheading svg {
+  height: auto;
+  width: 15px !important;
+  margin-left: 8px;
+  color: #006699;
+}

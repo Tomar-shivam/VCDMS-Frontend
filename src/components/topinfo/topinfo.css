@@ -1,0 +1,39 @@
+.not-visible {
+  display: none;
+}
+.txt-labels {
+  width: 100%;
+  text-align: right;
+  margin-right: -18px;
+  margin-top: 3.5px;
+}
+.form-controls {
+  height: calc(1em + 0.75rem + 2px);
+  padding: 4px 0.75rem;
+}
+.pr-16 {
+  padding-right: 0 !important;
+}
+.bold-h5 {
+  font-weight: bold;
+}
+.font-16 {
+  font-size: 16px !important;
+}
+.encoder-title {
+  font-size: 20px;
+  font-weight: 500;
+}
+.inline-custom-label {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1;
+  vertical-align: -webkit-baseline-middle;
+}
+.encoder-top-btn-grp {
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+.encoder-top-btn-grp button {
+  margin-left: 10px;
+}

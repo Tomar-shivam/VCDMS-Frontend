@@ -1,0 +1,45 @@
+.txt-ssh {
+    text-align: right;
+    padding-top: 3px;
+    padding-right: 5px;
+}
+.on-off {
+    padding-left: 5px;
+}
+.switch.btn {
+    min-height: calc(.5em + .69rem + 2px) !important;
+}
+.switch-on {
+    top: -4px !important;
+    right: 60% !important;
+}
+.switch-off {
+    top: -4px !important;
+    left: 60% !important;
+}
+.min-w135 {
+    min-width: 135px;
+}
+
+.label-txts {
+    display: inline-block;
+    top: -2px;
+    position: relative;
+    left: 7px;
+}
+.mart-10 {
+    margin-top: 10px;
+}
+.form-group2 {
+    margin-bottom: 16px;
+}
+.form-boxdiv-gray.shadow-box {
+border-radius: 10px;
+overflow: hidden;
+box-shadow: 0 3px 10px #ebebeb;
+}
+.form-boxdiv-gray.shadow-box  .form-boxtopcont {
+    width: 97%;
+    margin: 0 auto;
+    padding: 18px 10px;
+}

@@ -1,0 +1,61 @@
+.customAccordion .card>button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    outline: 0;
+    border: 0;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 5px 15px;
+}
+
+.customAccordion .card>button svg{
+    font-size: 16px;
+    color: #006699;
+}
+
+.customAccordion>.card {
+    border-radius: 0.25rem !important;
+    border: 1px solid #dbdada !important;
+}
+
+.customAccordion>.card+.card{
+    margin-top: 10px;
+}
+
+.icon-pos{
+    position: relative;
+}
+.icon-pos>svg{
+    position: absolute;
+    right: 0;
+    top: -25px;
+}
+.icon-pos .collapse+.toggleIcon{
+    position: absolute;
+    display: block;
+    top: -30px;
+    right: 30px;
+}
+.icon-pos .collapse+.toggleIcon:after{
+    position: absolute;
+    content: "\f055";
+    display: block;
+    font-family: 'fontAwesome';
+    font-size: 17px;
+    color: #006a9f;
+    font-weight: 700;
+}
+.icon-pos .collapse.show+.toggleIcon:after{
+    content: "\f056";
+}
+
+input.hide-num-arrow::-webkit-outer-spin-button,
+input.hide-num-arrow::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input.hide-num-arrow {
+  -moz-appearance: textfield;
+}

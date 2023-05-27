@@ -1,0 +1,15 @@
+.pad-15 {
+  padding: 15px 0;
+}
+
+.enc-status {
+  padding: 0;
+}
+
+.enc-checkbox {
+  margin-left: 5px;
+}
+
+.not-visible {
+    display: none;
+}

@@ -1,0 +1,48 @@
+.pad-15 {
+  padding: 15px 0;
+}
+
+.enc-status {
+  padding: 29px 0 0 0;
+}
+
+.enc-status-inside-black {
+  color: black;
+  text-transform: capitalize;
+}
+
+.enc-status-inside-green {
+  color: #00a82d;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.enc-status-inside-red {
+  color: red;
+  text-transform: capitalize;
+}
+
+.enc-status-inside-blue {
+  color: blue;
+  text-transform: capitalize;
+}
+
+.enc-status-inside-yellow {
+  color: yellow;
+}
+
+.enc-status-inside-orange {
+  color: orange;
+}
+
+.enc-checkbox {
+  margin-left: 5px;
+}
+
+.not-visible {
+  display: none;
+}
+
+.encoder-tabs {
+  width: 100%;
+}
